@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            #region Q1
+            #region Q1.Write a program that allows the user to enter a number then print it.
             //bool flag;
             //int x;
             //do
@@ -16,7 +16,7 @@
             //Console.WriteLine(x);
             #endregion
 
-            #region Q2
+            #region Q2.Write C# program that converts a string to an integer
             //string s = Console.ReadLine();
             //int n = Convert.ToInt32(s);
             //Console.WriteLine(n);
@@ -24,20 +24,20 @@
             //// So we must enter a string number in order to convert it to int
             #endregion
 
-            #region Q3
+            #region Q3.Write C# program that Perform a simple arithmetic operation with floating-point numbers 
             //double f1 = 0.5, f2 = 1.1;
             //f1 += f2; // Added the value of f2 to f1 which replaces the value of old f1 in stack
             //Console.WriteLine(f1); 
             //// I am not sure if this what the question mean
             #endregion
 
-            #region Q4
+            #region Q4.Write C# program that Extract a substring from a given string
             //string s1 = "Hello, world";
             //string s2 = s1.Substring(3, 5); // Starting from idx 3 (second 'l'), to length 5 from that idx (lo, w)
             //Console.WriteLine(s2);
             #endregion
 
-            #region Q5
+            #region Q5.Write C# program that Assigning one value type variable to another 
             //int a = 1; // Assigning var a = 1
             //int b = a; // Assigning var b = a
 
@@ -49,7 +49,7 @@
             //Console.WriteLine(b);
             #endregion
 
-            #region Q6
+            #region Q6..Write C# program that Assigning one reference type variable to another 
             //int[] arr1 = { 1, 2 }; // Assigning arr1 with values 1, 2
             //int[] arr2 = arr1; // Assiging arr2 = arr1
             //// Since array is reference type, when assigning arr2 = arr1, this means that they share the same object in the heap
@@ -66,7 +66,7 @@
             //Console.WriteLine($"arr2 : {arr2[0]} {arr2[1]}");
             #endregion
 
-            #region Q7
+            #region Q7.Write C# program that take two string variables and print them as one variable 
             //Console.WriteLine("enter 1st string");
             //string str1 = Console.ReadLine();
             //Console.WriteLine("enter 2nd string");
@@ -77,7 +77,7 @@
             //Console.WriteLine(str3);
             #endregion
 
-            #region Q8
+            #region Q8.Write a program that calculates the simple interest given the principal amount
             //bool flag;
             //double p, r, t, i;
             //do {
@@ -106,7 +106,7 @@
 
             #endregion
 
-            #region Q9
+            #region Q9.Write a program that calculates the Body Mass Index 
 
             //bool flag1;
             //double w, h, BMI;
@@ -129,7 +129,7 @@
 
             #endregion
 
-            #region Q10
+            #region Q10.Write a program that uses the ternary operator to check if the temperature is too hot, too cold, or just good
             //bool flag5;
             //int temp;
             //do
@@ -143,7 +143,7 @@
             //Console.WriteLine(msg);
             #endregion
 
-            #region Q11
+            #region Q11.Write a program that takes the date from the user and displays it in various formats using string interpolation
 
             //bool dayFlag;
             //int day;
@@ -178,7 +178,7 @@
 
             #endregion
 
-            #region Q12
+            #region Q12.Write a program that takes a number from the user then print yes if that number can be divided by 3 and 4 otherwise print no
             //bool flagg;
             //int numm;
             //do
@@ -194,7 +194,7 @@
 
             #endregion
 
-            #region Q13
+            #region Q13.Write a program that allows the user to insert an integer then print negative if it is negative number otherwise print positive
             //bool negFlag;
             //int negNum;
 
@@ -212,7 +212,7 @@
             //    Console.WriteLine("zero");
             #endregion
 
-            #region Q14
+            #region Q14.Write a program that takes 3 integers from the user then prints the max element and the min element
             //int[] arr2 = new int[3];
 
             //for(int i = 0; i < 3; i++)
@@ -239,7 +239,7 @@
 
             #endregion
 
-            #region Q14(2)
+            #region Q14(2).Write a program that allows the user to insert an integer number then check If a number is even or odd
             //int num101;
             //bool numFlag101;
 
@@ -256,7 +256,7 @@
 
             #endregion
 
-            #region Q15
+            #region Q15.Write a program that takes character from the user then if it is a vowel chars 
 
             //char c100;
             //bool c100Flag;
@@ -273,24 +273,45 @@
             //    Console.WriteLine("consonent");
             #endregion
 
-            #region Q16
+            #region Q16.Write a program to input the month number and print the number of days in that month
             //bool flag200;
             //int mo;
 
-            //do {
-            //    Console.WriteLine("Enter month number");
+            //do
+            //{
+            //    Console.WriteLine("enter month number");
             //    flag200 = int.TryParse(Console.ReadLine(), out mo);
             //} while (!flag200 || !(mo >= 1 && mo <= 12));
 
-            //if (mo == 1 || mo == 3 || mo == 5 || mo == 7 || mo == 8 || mo == 10 || mo == 12)
-            //    Console.WriteLine("31 Days");
-            //else if (mo == 4 || mo == 6 || mo == 9 || mo == 11)
-            //    Console.WriteLine("30 Days");
-            //else
-            //    Console.WriteLine("28 Days");
+            //switch (mo)
+            //{
+            //    case 1:
+            //    case 3:
+            //    case 5:
+            //    case 8:
+            //    case 10:
+            //    case 12:
+            //        Console.WriteLine("31 Days");
+            //        break;
+
+            //    case 4:
+            //    case 6:
+            //    case 9:
+            //    case 11:
+            //        Console.WriteLine("30 Days");
+            //        break;
+
+            //    case 2:
+            //        Console.WriteLine("28 Days");
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("Invalid");
+            //        break;
+            //}
             #endregion
 
-            #region Q17
+            #region Q17.Write a program to create a Simple Calculator
             //double l, r;
             //char op;
             //bool lflag, rflag, opflag;
@@ -329,7 +350,7 @@
             //        Console.WriteLine($"{l} / {r} = {l/r}");
             #endregion
 
-            #region Q18
+            #region Q18.Write a program that allows the user to insert an integer then print all numbers between 1 to that number.
             //int n700;
             //bool n700flag;
 
@@ -343,7 +364,8 @@
             //    Console.WriteLine(i);
             #endregion
 
-            #region Q19
+            #region Q19.Write a program that allows the user to insert an integer then print a multiplication table up to 12
+
             //int num800;
             //bool num800flag;
             //do
@@ -360,7 +382,7 @@
 
             #endregion
 
-            #region Q20
+            #region Q20.Write a program that allows to user to insert number then print all even numbers between 1 to this number
             //int n900;
             //bool n000flag;
 
@@ -378,7 +400,7 @@
 
             #endregion
 
-            #region Q21
+            #region Q21.Write a program that takes two integers then prints the power
 
             //int num102, num202;
             //bool flag102, flag202;
@@ -405,7 +427,7 @@
             //Console.WriteLine(ans);
             #endregion
 
-            #region Q22
+            #region Q22.Write a program to allow the user to enter int and print the REVERSED of it
 
             //int revNum;
             //bool f4;
@@ -434,7 +456,7 @@
             //}
             #endregion
 
-            #region Q23
+            #region Q23.Write a program in C# Sharp to find prime numbers within a range of numbers
             //int start, end;
             //bool startFlag, endFlag;
 
@@ -465,36 +487,36 @@
             //}
             #endregion
 
-            #region Q24
+            #region Q24.Write a program in C# Sharp to convert a decimal number into binary without using an array
 
-            int decimalNum;
-            bool decimalNumFlag;
+            //int decimalNum;
+            //bool decimalNumFlag;
 
-            string binary = "";
+            //string binary = "";
 
-            do
-            {
-                Console.WriteLine("Enter number");
-                decimalNumFlag = int.TryParse(Console.ReadLine(), out decimalNum);
+            //do
+            //{
+            //    Console.WriteLine("Enter number");
+            //    decimalNumFlag = int.TryParse(Console.ReadLine(), out decimalNum);
 
-            } while (!decimalNumFlag || !(decimalNum >= 0));
+            //} while (!decimalNumFlag || !(decimalNum >= 0));
 
-            if (decimalNum == 0)
-                Console.WriteLine(0);
-            else
-            {
-                while (decimalNum > 0)
-                {
-                    binary = (decimalNum % 2) + binary;
-                    decimalNum /= 2;
-                }
+            //if (decimalNum == 0)
+            //    Console.WriteLine(0);
+            //else
+            //{
+            //    while (decimalNum > 0)
+            //    {
+            //        binary = (decimalNum % 2) + binary;
+            //        decimalNum /= 2;
+            //    }
 
-                Console.WriteLine(binary);
-            }
+            //    Console.WriteLine(binary);
+            //}
 
             #endregion
 
-            #region Q25
+            #region Q25.Write a program in C# Sharp to find the sum of all elements of the array
             //int sz, sum = 0;
             //bool szFlag;
             //do {
@@ -519,7 +541,6 @@
 
             //Console.WriteLine($"Sum of array is : {sum} ");
             #endregion
-
 
         }
     }
